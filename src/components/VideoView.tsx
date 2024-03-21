@@ -9,7 +9,7 @@ import {
   VideoTrack,
 } from 'livekit-client';
 // @ts-ignore
-import { RTCView } from 'src/helpers/expo-webrtc';
+import { RTCView } from '../helpers/expo-webrtc';
 import { useEffect, useState } from 'react';
 import { RemoteVideoTrack } from 'livekit-client';
 import ViewPortDetector from './ViewPortDetector';
