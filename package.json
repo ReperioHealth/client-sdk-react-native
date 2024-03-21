@@ -48,6 +48,7 @@
     "loglevel": "^1.8.0",
     "promise.allsettled": "^1.0.5",
     "react-native-url-polyfill": "^1.3.0",
+    "react-native-webrtc-web-shim": "^1.0.6",
     "well-known-symbols": "^4.0.0"
   },
   "devDependencies": {
