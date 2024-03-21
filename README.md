@@ -1,3 +1,5 @@
+This fork of [@livekit/react-native](https://github.com/livekit/client-sdk-react-native) adds web support via [react-native-webrtc-web-shim](https://github.com/react-native-webrtc/react-native-webrtc-web-shim) for cross-platform compatibility.
+
 <!--BEGIN_BANNER_IMAGE-->
 
 <picture>
