@@ -1,4 +1,5 @@
-import { registerGlobals as webrtcRegisterGlobals } from '@livekit/react-native-webrtc';
+// @ts-ignore
+import { registerGlobals as webrtcRegisterGlobals } from './helpers/expo-webrtc';
 import { setupURLPolyfill } from 'react-native-url-polyfill';
 import 'fastestsmallesttextencoderdecoder';
 import AudioSession, {

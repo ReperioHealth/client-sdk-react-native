@@ -8,7 +8,8 @@ import {
   TrackEvent,
   VideoTrack,
 } from 'livekit-client';
-import { RTCView } from '@livekit/react-native-webrtc';
+// @ts-ignore
+import { RTCView } from 'src/helpers/expo-webrtc';
 import { useEffect, useState } from 'react';
 import { RemoteVideoTrack } from 'livekit-client';
 import ViewPortDetector from './ViewPortDetector';
@@ -80,7 +81,7 @@ export const VideoView = ({
             flex: 1,
             width: '100%',
           }}
-          streamURL={mediaStream?.toURL() ?? ''}
+          stream={mediaStream}
           objectFit={objectFit}
           zOrder={zOrder}
           mirror={mirror}
