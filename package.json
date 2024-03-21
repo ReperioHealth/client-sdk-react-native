@@ -1,7 +1,7 @@
 {
-  "name": "@livekit/react-native",
-  "version": "2.0.1",
-  "description": "LiveKit for React Native",
+  "name": "expo-livekit",
+  "version": "2.0.1-beta.1",
+  "description": "LiveKit for Expo (cross-platform)",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -26,20 +26,24 @@
     "!**/__fixtures__",
     "!**/__mocks__"
   ],
-  "repository": "https://github.com/livekit/client-sdk-react-native",
+  "repository": "https://github.com/reperiohealth/expo-livekit",
   "author": "LiveKit <dl@livekit.io> (https://livekit.io/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/livekit/client-sdk-react-native/issues"
+    "url": "https://github.com/reperiohealth/expo-livekit/issues"
   },
-  "homepage": "https://github.com/livekit/client-sdk-react-native#readme",
+  "homepage": "https://github.com/reperiohealth/expo-livekit#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "react-native",
+    "expo",
+    "livekit",
+    "webrtc",
     "ios",
-    "android"
+    "android",
+    "web"
   ],
   "dependencies": {
     "array.prototype.at": "^1.1.1",
