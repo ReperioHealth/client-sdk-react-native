@@ -8890,11 +8890,6 @@ react-native-url-polyfill@^1.3.0:
   dependencies:
     whatwg-url-without-unicode "8.0.0-3"
 
-react-native-webrtc-web-shim@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/react-native-webrtc-web-shim/-/react-native-webrtc-web-shim-1.0.6.tgz#642897caef1a692f5e735c2c822436c16b74ebe4"
-  integrity sha512-lgW3q5CfSIuDt2goI2yQeAeqshstk32Mfn5m8eZF7dIJ9dHlfLODdBjirGltCKfESyUlAhdFpUp380zGAGYIQQ==
-
 react-native@0.71.13:
   version "0.71.13"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.71.13.tgz#e20007904f5f8a4b8b1faf1e60f0d7eb9f578ed6"
