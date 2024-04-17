@@ -5601,6 +5601,11 @@ expect@^29.0.0, expect@^29.5.0:
     jest-message-util "^29.5.0"
     jest-util "^29.5.0"
 
+expo-webrtc-web-shim@^1.0.7-beta.0:
+  version "1.0.7-beta.0"
+  resolved "https://registry.yarnpkg.com/expo-webrtc-web-shim/-/expo-webrtc-web-shim-1.0.7-beta.0.tgz#a32a87253f0c63d02633faa9a347e79e8a218a25"
+  integrity sha512-c5pp8XG/zz7fgiEDZo+ezkcKKGHyEH8A0L59lmVjzrysdn4BgWWBV8UnehyDTZbmS/hY/3elJvwiL3R2BIdSsw==
+
 external-editor@^3.0.3:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-3.1.0.tgz#cb03f740befae03ea4d283caed2741a83f335495"
