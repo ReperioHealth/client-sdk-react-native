@@ -1,6 +1,6 @@
 {
   "name": "expo-livekit",
-  "version": "2.0.1-beta.2",
+  "version": "2.0.1-beta.3",
   "description": "LiveKit for Expo (cross-platform)",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
