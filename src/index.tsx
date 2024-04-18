@@ -44,7 +44,7 @@ function livekitRegisterGlobals() {
 
 function fixWebrtcAdapter() {
   // @ts-ignore
-  if (window?.navigator !== undefined) {
+  if (typeof window !== 'undefined' && window?.navigator !== undefined) {
     // @ts-ignore
     const { navigator } = window;
     if (navigator.userAgent === undefined) {
